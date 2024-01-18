@@ -21,6 +21,7 @@ jobs:
       - name: List output files
         run: find dist/ -print
 
+        # ftp info
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
