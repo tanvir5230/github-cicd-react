@@ -24,7 +24,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          server: ftp.samkirkland.com
+          server: ftp.diligite.com
           username: u396935893.portal2
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
