@@ -28,4 +28,3 @@ jobs:
           username: u396935893.portal2
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: public_html/portal2/
